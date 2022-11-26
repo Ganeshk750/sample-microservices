@@ -42,6 +42,7 @@ public class PriceController {
 	}
 
 	private void populatePriceList() {
+		priceList.clear();
 		priceList.add(new Price(201L, 101L, 35000, 17000));
 		priceList.add(new Price(202L, 102L, 30000, 25000));
 		priceList.add(new Price(203L, 103L, 500, 250));

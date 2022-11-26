@@ -31,6 +31,7 @@ public class InventoryController {
 	}
 
 	private void populateInventoryList() {
+		inventorytList.clear();
 		inventorytList.add(new Inventory(301L, 101L, true));
 		inventorytList.add(new Inventory(302L, 102L, true));
 		inventorytList.add(new Inventory(303L, 103L, false));

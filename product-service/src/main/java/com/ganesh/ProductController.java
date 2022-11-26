@@ -44,6 +44,7 @@ public class ProductController {
 	}
 
 	private void populateProductList() {
+		productList.clear();;
 		productList.add(new ProductInfo(101L, "Iphone", "It is very Costely"));
 		productList.add(new ProductInfo(102L, "LapTop", "It is useful for students"));
 		productList.add(new ProductInfo(103L, "Book", "It is also useful for all kinds of Students"));
